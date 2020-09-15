@@ -1,0 +1,167 @@
+body {
+  width: 100%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.col-lg-6 img {
+  transform: rotate(25deg);
+  width: 55%;
+  position: absolute;
+  right: 30%;
+}
+
+h1 {
+  font-family: 'Ranchers', cursive;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: 'Ubuntu-Italic', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*navigation bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu-Italic', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 7% 0;
+}
+
+/* feature section*/
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #fe7171;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section*/
+#testimonials {
+  text-align: center;
+  background-color: #fe7171;
+  color: white;
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press section*/
+#press {
+  background-color: #fe7171;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .col-lg-6 img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* footer */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 3% 15% 7%;
+}
+
+.cta-heading {
+  margin-bottom: 40px;
+  font-family: 'Ranchers', cursive;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.down {
+  margin-left: 13px;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icons {
+  margin: 20px 10px;
+}
